@@ -81,6 +81,32 @@
 .waveAnimation .waveBottom {
   animation: move_wave 15s linear infinite; }
 
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.fadeIn {
+  -webkit-animation: fadeIn 1s ease-in-out;
+  -moz-animation: fadeIn 1s ease-in-out;
+  -o-animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 1s ease-in-out; }
+
 h1,
 h2,
 h3,
@@ -90,6 +116,18 @@ h6,
 p,
 a {
   font-family: "Roboto", sans-serif; }
+
+i {
+  color: #1f1f1fd1;
+  font-size: 14px; }
+
+.boxCadastro {
+  height: 35rem !important; }
+
+.area-cad {
+  padding-top: 5rem;
+  position: relative;
+  z-index: 999; }
 
 h3 {
   color: black;
