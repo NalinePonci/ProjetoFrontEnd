@@ -8,7 +8,19 @@ p,
 a {
     font-family: "Roboto", sans-serif;
 }
-i{
+i {
     color: #1f1f1fd1;
     font-size: 14px;
+}
+.z-index {
+    z-index: 999;
+}
+.w100{
+    width: 100%;
+}
+.visible-xs {
+    display: none;
+}
+.br-100{
+    border-radius: 21px;
 }

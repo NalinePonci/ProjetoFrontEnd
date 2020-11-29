@@ -1,8 +1,13 @@
 .boxCadastro {
     height: 35rem!important;
+    @media only screen and (max-width: 600px) {
+        height: 44rem !important;
+    }
 }
 .area-cad {
     padding-top: 5rem;
     position: relative;
     z-index: 999;
 }
+
+

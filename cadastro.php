@@ -8,15 +8,20 @@ require "inc/inc.back.php";
     <div class="container">
         <div class="row align-items-lg-center">
             <div class="col-md-4"></div>
-            <div class="boxCadastro BoxButtons   col-md-4 ">
+            <div class="boxCadastro BoxButtons col-md-4 ">
                 <div class="HeadBox pt-5 pb-3">
                     <h3>CADASTRO</h3>
                     <label><i> Por favor preencha o formulário</i> </label>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-xs-2">
+                    <div class="col-md-6 col-xs-2">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Nome">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xs-2">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Sobrenome">
                         </div>
                     </div>
                     <div class="col-md-12 col-xs-2">
@@ -24,16 +29,25 @@ require "inc/inc.back.php";
                             <input type="text" class="form-control" placeholder="Email">
                         </div>
                     </div>
-                    <div class="col-md-12 col-xs-2">
+                    <div class="col-md-6 col-xs-2">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Estado">
                         </div>
                     </div>
-                    <div class="col-md-12 col-xs-2">
+                    <div class="col-md-6 col-xs-2">
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="Cidade">
                         </div>
                     </div>
+                    <div class="col-md-6 col-xs-2 mb-3 ">
+                        <input type="checkbox" name="" id="">
+                        <label>Masculino</label>
+                    </div>
+                    <div class="col-md-6 col-xs-2 mb-3">
+                        <input type="checkbox" name="" id="">
+                        <label>Feminino</label>
+                    </div>
+
                     <div class="col-md-12 col-xs-2">
                         <div class="form-group">
                             <input type="password" class="form-control" placeholder="Senha">
@@ -49,7 +63,7 @@ require "inc/inc.back.php";
                     <a href="">
                         <button type="button" class="Btn2
                                     BtnVerify">
-                            Entrar
+                            Cadastre-se
                         </button>
                     </a>
 

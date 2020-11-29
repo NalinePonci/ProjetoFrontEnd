@@ -15,7 +15,10 @@
   .BoxButtons {
     margin-right: 4%;
     margin-top: 4%;
-    margin-left: 4%; } }
+    margin-left: 4%; }
+
+  .area-cad {
+    padding-top: 0 !important; } }
 @keyframes move_wave {
   0% {
     transform: translateX(0) translateZ(0) scaleY(1); }
@@ -107,6 +110,40 @@
   -o-animation: fadeIn 1s ease-in-out;
   animation: fadeIn 1s ease-in-out; }
 
+#wrapper {
+  overflow-x: hidden; }
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out; }
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem; }
+
+#sidebar-wrapper .list-group {
+  width: 15rem; }
+
+#page-content-wrapper {
+  min-width: 100vw; }
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0; }
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0; }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%; }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem; } }
 h1,
 h2,
 h3,
@@ -121,8 +158,23 @@ i {
   color: #1f1f1fd1;
   font-size: 14px; }
 
+.z-index {
+  z-index: 999; }
+
+.w100 {
+  width: 100%; }
+
+.visible-xs {
+  display: none; }
+
+.br-100 {
+  border-radius: 21px; }
+
 .boxCadastro {
   height: 35rem !important; }
+  @media only screen and (max-width: 600px) {
+    .boxCadastro {
+      height: 44rem !important; } }
 
 .area-cad {
   padding-top: 5rem;
@@ -135,9 +187,6 @@ h3 {
 
 b {
   color: #888888; }
-
-.visible-xs {
-  display: none; }
 
 .area-opc {
   padding-top: 10rem;
@@ -211,5 +260,34 @@ b {
   color: white; }
 .info h4 {
   color: #bfbfbf; }
+
+.btnPizza {
+  width: 40px;
+  background: none;
+  border: none; }
+  .btnPizza:focus {
+    border: none;
+    outline: none; }
+
+.ml-0 {
+  margin-left: 0; }
+
+.iconUser {
+  width: 22%; }
+
+.user-dados {
+  width: 194px;
+  display: flex;
+  align-items: center; }
+
+.btnPesquisar {
+  color: #fff;
+  background-color: #8f5023;
+  border-color: #923b08;
+  border-radius: 0px 6px 7px 0px; }
+  .btnPesquisar:focus {
+    outline: none;
+    box-shadow: none;
+    border: none; }
 
 /*# sourceMappingURL=style.css.map */

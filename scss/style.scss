@@ -10,9 +10,7 @@ h3 {
 b {
     color: rgb(136, 136, 136);
 }
-.visible-xs {
-    display: none;
-}
+
 .area-opc {
     padding-top: 10rem;
     position: relative;
@@ -98,5 +96,37 @@ b {
     }
     h4 {
         color: #bfbfbf;
+    }
+}
+.btnPizza {
+    width: 40px;
+    background: none;
+    border: none;
+
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+.ml-0 {
+    margin-left: 0;
+}
+.iconUser {
+    width: 22%;
+}
+.user-dados {
+    width: 194px;
+    display: flex;
+    align-items: center;
+}
+.btnPesquisar {
+    color: #fff;
+    background-color: #8f5023;
+    border-color: #923b08;
+    border-radius: 0px 6px 7px 0px;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
     }
 }
